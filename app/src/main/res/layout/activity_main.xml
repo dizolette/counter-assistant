@@ -8,8 +8,10 @@
         tools:context=".MainActivity">
 
     <ImageView
+        android:background="#6C9BB9"
+        android:scaleType="fitCenter"
         android:id="@+id/iv_home"
-        android:src="@color/colorPrimary"
+        android:src="@drawable/referee"
         android:layout_width="match_parent"
         android:layout_height="300dp" />
 
@@ -20,11 +22,12 @@
         android:layout_alignBottom="@id/iv_home"
         android:textSize="25sp"
         android:textStyle="bold"
-        android:text="COUNTER ASSISTANT"
+        android:text="Input Team"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="5dp"
         android:paddingLeft="5dp"
         android:paddingRight="5dp"
         android:layout_marginBottom="5dp"

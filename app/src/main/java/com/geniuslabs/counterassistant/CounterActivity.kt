@@ -28,5 +28,30 @@ class CounterActivity : AppCompatActivity() {
             scoreA = ++scoreA
             score_tim_1.text = scoreA.toString()
         }
+
+        btnA2.setOnClickListener {
+            scoreA += 2
+            score_tim_1.text = scoreA.toString()
+        }
+
+        btnA3.setOnClickListener {
+            scoreA += 3
+            score_tim_1.text = scoreA.toString()
+        }
+
+        btnB1.setOnClickListener {
+            scoreB = ++scoreB
+            score_tim_2.text = scoreB.toString()
+        }
+
+        btnB2.setOnClickListener {
+            scoreB += 2
+            score_tim_2.text = scoreB.toString()
+        }
+
+        btnB3.setOnClickListener {
+            scoreB += 3
+            score_tim_2.text = scoreB.toString()
+        }
     }
 }
